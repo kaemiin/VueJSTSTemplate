@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Test from './views/Test.vue';
 import TestView from './views/TestView.vue';
+import AntDesignView from './views/AntDesignView.vue';
 
 Vue.use(Router);
 
@@ -32,6 +33,11 @@ export default new Router({
       path: '/testview',
       name: 'testview',
       component: TestView,
+    },
+    {
+      path: '/antdesignview',
+      name: 'antdesignview',
+      component: AntDesignView,
     },
   ],
 });

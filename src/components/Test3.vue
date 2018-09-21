@@ -2,17 +2,17 @@
 import { CreateElement, VNode } from 'vue';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
-@Component
-export default class Test3 extends Vue {
-    private blogTitle = 'TITLE3';
-    public render(h: CreateElement): VNode {
-        return (
-            <div class='foo' attribs={{id: 'foo'}}>
-                {this.blogTitle}
-            </div>
-        );
-    }
-}
+// @Component
+// export default class Test3 extends Vue {
+//     private blogTitle = 'TITLE3';
+//     public render(h: CreateElement): VNode {
+//         return (
+//             <div class='foo' attribs={{id: 'foo'}}>
+//                 {this.blogTitle}
+//             </div>
+//         );
+//     }
+// }
 
 // @Component
 // export default class Test3 extends Vue {
@@ -24,15 +24,18 @@ export default class Test3 extends Vue {
 //     }
 // }
 
-// @Component
-// export default class Test3 extends Vue {
-//     private blogTitle = 'TITLE';
-//     public render(h: CreateElement): VNode {
-//         return (
-//             <div id='foo'>Test3</div>
-//         );
-//     }
-// }
+@Component
+export default class Test3 extends Vue {
+    private blogTitle = 'TITLE';
+    public render(h: CreateElement): VNode {
+        /* tslint:disable */
+        return (
+            
+            <div id='foo'>Test3</div>
+        );
+        /* tslint:enable */
+    }
+}
 
 // @Component
 // export default class Test3 extends Vue {
@@ -104,7 +107,6 @@ export default class Test3 extends Vue {
 // });
 
 // export default test;
-
 </script>
 
 <style scoped>

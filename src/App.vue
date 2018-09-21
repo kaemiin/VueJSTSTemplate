@@ -1,15 +1,29 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/test">Test</router-link> |
-      <router-link to="/testview">TestView</router-link>
+  <a-locale-provider :locale="locale">
+    <div id="app">
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/test">Test</router-link> |
+        <router-link to="/testview">TestView</router-link> |
+        <router-link to="/antdesignview">AntDesignView</router-link>
+      </div>
+      <router-view/>
     </div>
-    <router-view/>
-  </div>
+  </a-locale-provider>
 </template>
+<script lang="ts">
 
+import { getLocale } from './utils/locales';
+
+export default {
+  data() {
+    return {
+      locale: getLocale(),
+    };
+  },
+};
+</script>
 <style>
 #app {
   font-family: 'Helvetica Neue', 'Avenir', Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif;
