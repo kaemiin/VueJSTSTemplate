@@ -1223,7 +1223,7 @@
     "@vue/cli-shared-utils" "^3.0.1"
     "@vue/preload-webpack-plugin" "^1.1.0"
     "@vue/web-component-wrapper" "^1.2.0"
-    acorn "^5.7.1"
+    acorn "^6.4.1"
     address "^1.0.3"
     autoprefixer "^8.6.5"
     cache-loader "^1.2.2"
@@ -1247,7 +1247,7 @@
     lodash.mapvalues "^4.6.0"
     lodash.transform "^4.6.0"
     mini-css-extract-plugin "^0.4.1"
-    minimist "^1.2.0"
+    minimist "^1.2.5"
     ora "^2.1.0"
     portfinder "^1.0.13"
     postcss-loader "^2.1.6"
@@ -1612,9 +1612,9 @@ acorn-globals@^4.1.0:
   dependencies:
     acorn "^5.0.0"
 
-acorn@^5.0.0, acorn@^5.3.0, acorn@^5.5.3, acorn@^5.6.2, acorn@^5.7.1:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.2.tgz#91fa871883485d06708800318404e72bfb26dcc5"
+acorn@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#913d61a3a93dd1638ebe3033395083192ee0ae73"
 
 add-dom-event-listener@^1.0.2:
   version "1.0.2"
@@ -4888,7 +4888,7 @@ has-values@^1.0.0:
   resolved "https://registry.yarnpkg.com/has-values/-/has-values-1.0.0.tgz#95b0b63fec2146619a6fe57fe75628d5a39efe4f"
   dependencies:
     is-number "^3.0.0"
-    kind-of "^4.0.0"
+    kind-of "^6.0.3"
 
 has@^1.0.0, has@^1.0.1:
   version "1.0.3"
@@ -5268,13 +5268,13 @@ is-accessor-descriptor@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz#a9e12cb3ae8d876727eeef3843f8a0897b5c98d6"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 is-accessor-descriptor@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz#169c2f6d3df1f992618072365c9b0ea1f6878656"
   dependencies:
-    kind-of "^6.0.0"
+    kind-of "^6.0.3"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -5325,13 +5325,13 @@ is-data-descriptor@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz#0b5ee648388e2c860282e793f1856fec3f301b56"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 is-data-descriptor@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz#d84876321d0e7add03990406abbbbd36ba9268c7"
   dependencies:
-    kind-of "^6.0.0"
+    kind-of "^6.0.3"
 
 is-date-object@^1.0.1:
   version "1.0.1"
@@ -5343,7 +5343,7 @@ is-descriptor@^0.1.0:
   dependencies:
     is-accessor-descriptor "^0.1.6"
     is-data-descriptor "^0.1.4"
-    kind-of "^5.0.0"
+    kind-of "^6.0.3"
 
 is-descriptor@^1.0.0, is-descriptor@^1.0.2:
   version "1.0.2"
@@ -5351,7 +5351,7 @@ is-descriptor@^1.0.0, is-descriptor@^1.0.2:
   dependencies:
     is-accessor-descriptor "^1.0.0"
     is-data-descriptor "^1.0.0"
-    kind-of "^6.0.2"
+    kind-of "^6.0.3"
 
 is-directory@^0.3.1:
   version "0.3.1"
@@ -5427,13 +5427,13 @@ is-number@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-2.1.0.tgz#01fcbbb393463a548f2f466cce16dece49db908f"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 is-number@^4.0.0:
   version "4.0.0"
@@ -5705,7 +5705,7 @@ jsdom@^11.11.0:
   resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-11.12.0.tgz#1a80d40ddd378a1de59656e9e6dc5a3ba8657bc8"
   dependencies:
     abab "^2.0.0"
-    acorn "^5.5.3"
+    acorn "^6.4.1"
     acorn-globals "^4.1.0"
     array-equal "^1.0.0"
     cssom ">= 0.3.2 < 0.4.0"
@@ -5785,7 +5785,7 @@ json5@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
   dependencies:
-    minimist "^1.2.0"
+    minimist "^1.2.5"
 
 jsonfile@^4.0.0:
   version "4.0.0"
@@ -5816,25 +5816,9 @@ killable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.0.tgz#da8b84bd47de5395878f95d64d02f2449fe05e6b"
 
-kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
-  dependencies:
-    is-buffer "^1.1.5"
-
-kind-of@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-4.0.0.tgz#20813df3d712928b207378691a45066fae72dd57"
-  dependencies:
-    is-buffer "^1.1.5"
-
-kind-of@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-5.1.0.tgz#729c91e2d857b7a419a1f9aa65685c4c33f5845d"
-
-kind-of@^6.0.0, kind-of@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
+kind-of@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
 
 launch-editor-middleware@^2.2.1:
   version "2.2.1"
@@ -6238,7 +6222,7 @@ micromatch@^2.3.11, micromatch@^2.3.7:
     filename-regex "^2.0.0"
     is-extglob "^1.0.0"
     is-glob "^2.0.1"
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
     normalize-path "^2.0.1"
     object.omit "^2.0.0"
     parse-glob "^3.0.4"
@@ -6255,7 +6239,7 @@ micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.8, micromatch@^3.1.9:
     extend-shallow "^3.0.2"
     extglob "^2.0.4"
     fragment-cache "^0.2.1"
-    kind-of "^6.0.2"
+    kind-of "^6.0.3"
     nanomatch "^1.2.9"
     object.pick "^1.3.0"
     regex-not "^1.0.0"
@@ -6321,17 +6305,9 @@ minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@0.0.8:
-  version "0.0.8"
-  resolved "http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
-
-minimist@^0.1.0:
-  version "0.1.0"
-  resolved "http://registry.npmjs.org/minimist/-/minimist-0.1.0.tgz#99df657a52574c21c9057497df742790b2b4c0de"
-
-minimist@^1.2.0:
-  version "1.2.0"
-  resolved "http://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
+minimist@^1.2.5:
+  version "1.2.5"
+  resolved "http://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
 
 minipass@^2.2.1, minipass@^2.3.3:
   version "2.3.4"
@@ -6372,7 +6348,7 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   version "0.5.1"
   resolved "http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
-    minimist "0.0.8"
+    minimist "1.2.5"
 
 mocha-webpack@^2.0.0-beta.0:
   version "2.0.0-beta.0"
@@ -6469,7 +6445,7 @@ nanomatch@^1.2.9:
     extend-shallow "^3.0.2"
     fragment-cache "^0.2.1"
     is-windows "^1.0.2"
-    kind-of "^6.0.2"
+    kind-of "^6.0.3"
     object.pick "^1.3.0"
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
@@ -6695,7 +6671,7 @@ object-copy@^0.1.0:
   dependencies:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
-    kind-of "^3.0.3"
+    kind-of "^6.0.3"
 
 object-keys@^1.0.11, object-keys@^1.0.12:
   version "1.0.12"
@@ -7551,7 +7527,7 @@ randomatic@^3.0.0:
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.1.0.tgz#36f2ca708e9e567f5ed2ec01949026d50aa10116"
   dependencies:
     is-number "^4.0.0"
-    kind-of "^6.0.0"
+    kind-of "^6.0.3"
     math-random "^1.0.1"
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
@@ -7586,7 +7562,7 @@ rc@^1.2.7:
   dependencies:
     deep-extend "^0.6.0"
     ini "~1.3.0"
-    minimist "^1.2.0"
+    minimist "^1.2.5"
     strip-json-comments "~2.0.1"
 
 read-chunk@^2.1.0:
@@ -8181,7 +8157,7 @@ snapdragon-util@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/snapdragon-util/-/snapdragon-util-3.0.1.tgz#f956479486f2acd79700693f6f7b805e45ab56e2"
   dependencies:
-    kind-of "^3.2.0"
+    kind-of "^6.0.3"
 
 snapdragon@^0.8.1:
   version "0.8.2"
@@ -8662,7 +8638,7 @@ to-object-path@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/to-object-path/-/to-object-path-0.3.0.tgz#297588b7b0e7e0ac08e04e672f85c1f4999e17af"
   dependencies:
-    kind-of "^3.0.2"
+    kind-of "^6.0.3"
 
 to-regex-range@^2.1.0:
   version "2.1.1"
@@ -8746,7 +8722,7 @@ tsconfig-paths@^3.4.0:
     "@types/json5" "^0.0.29"
     deepmerge "^2.0.1"
     json5 "^1.0.1"
-    minimist "^1.2.0"
+    minimist "^1.2.5"
     strip-bom "^3.0.0"
 
 tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
@@ -9201,7 +9177,7 @@ webpack-bundle-analyzer@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.3.2.tgz#3da733a900f515914e729fcebcd4c40dde71fc6f"
   dependencies:
-    acorn "^5.3.0"
+    acorn "^6.4.1"
     bfj-node4 "^5.2.0"
     chalk "^2.3.0"
     commander "^2.13.0"
@@ -9335,7 +9311,7 @@ webpack@^4.15.1:
     "@webassemblyjs/wasm-edit" "1.5.13"
     "@webassemblyjs/wasm-opt" "1.5.13"
     "@webassemblyjs/wasm-parser" "1.5.13"
-    acorn "^5.6.2"
+    acorn "^6.4.1"
     acorn-dynamic-import "^3.0.0"
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
@@ -9364,7 +9340,7 @@ webpack@^4.8.3:
     "@webassemblyjs/helper-module-context" "1.7.6"
     "@webassemblyjs/wasm-edit" "1.7.6"
     "@webassemblyjs/wasm-parser" "1.7.6"
-    acorn "^5.6.2"
+    acorn "^6.4.1"
     acorn-dynamic-import "^3.0.0"
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
@@ -9558,7 +9534,7 @@ yargs@~1.2.6:
   version "1.2.6"
   resolved "http://registry.npmjs.org/yargs/-/yargs-1.2.6.tgz#9c7b4a82fd5d595b2bf17ab6dcc43135432fe34b"
   dependencies:
-    minimist "^0.1.0"
+    minimist "^1.2.5"
 
 yeoman-environment@^2.0.5, yeoman-environment@^2.1.1:
   version "2.3.3"
@@ -9599,7 +9575,7 @@ yeoman-generator@^2.0.5:
     lodash "^4.17.13"
     make-dir "^1.1.0"
     mem-fs-editor "^4.0.0"
-    minimist "^1.2.0"
+    minimist "^1.2.5"
     pretty-bytes "^4.0.2"
     read-chunk "^2.1.0"
     read-pkg-up "^3.0.0"
